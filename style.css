@@ -1,0 +1,40 @@
+#images {
+    height: 150vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    transition: transform 1.5s ease-in-out; 
+  }
+  
+  .image-container {
+    width: 100%;
+    height: 300vh;
+    object-fit: cover;
+    flex-shrink: 0;
+  }
+  
+  img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+  }
+  
+  body {
+    margin: 0;
+    font-family: sans-serif;
+    background: linear-gradient(to right, #000000, #174F15);
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 50px;
+    color: #b0b0b0;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    h1 {
+      font-size: 24px;
+    }
+  }
